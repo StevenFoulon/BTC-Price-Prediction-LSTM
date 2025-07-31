@@ -1,0 +1,4 @@
+Pipeline,Features,Window,Batch_size,Epochs,Période,MAPE_1d,MAPE_30d,Commentaires
+LSTM,Close,1,32,100,4y,2.6,,Test baseline - Close seul
+LSTM,"Close, Open, High, Low, Volume",1,32,100,4y,1.6,,Test baseline - OHLCV
+LSTM Rolling,7 features (OHLCV + indicateurs),1,32,100,1y,,3.1410074477502365,Prédiction rolling 30 jours
