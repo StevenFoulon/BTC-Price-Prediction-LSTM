@@ -98,8 +98,8 @@ Trois pipelines LSTM ont été développés et évalués avec succès :
 | **LSTM 2** | 5 (OHLCV) | 1 jour | 4 ans | **1.6%** | 🟢 Excellent |
 | **LSTM 3** | 7 (OHLCV+MM200+RSI14) | 30 jours | 1 an | **3.14%** | 🟡 Bon |
 
-* **MAPE** (Mean Absolute Percentage Error) : représente le pourcentage d'erreur moyen de la prédiction.
-** **OHLCV** : Open (ouverture), High (haut), Low (bas), Close (clôture), Volume.
+- **MAPE** (Mean Absolute Percentage Error) : représente le pourcentage d'erreur moyen de la prédiction.
+- **OHLCV** : Open (ouverture), High (haut), Low (bas), Close (clôture), Volume.
 
 ### **Analyse détaillée par pipeline**
 
