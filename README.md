@@ -92,11 +92,11 @@ BTC-Price-Prediction-LSTM/
 
 Trois pipelines LSTM ont été développés et évalués avec succès :
 
-| Pipeline | Features | Horizon | Dataset | MAPE | Performance |
-|----------|----------|---------|---------|------|-------------|
-| **LSTM 1** | Close seul | 1 jour | 4 ans | **2.6%** | 🟢 Très bon |
-| **LSTM 2** | OHLCV | 1 jour | 4 ans | **1.6%** | 🟢 Excellent |
-| **LSTM 3** | Rolling | 30 jours | 1 an | **3.14%** | 🟡 Bon |
+| Pipeline | Features (Nombre) | Horizon | Dataset | MAPE | Performance |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **LSTM 1** | 1 (Close seul) | 1 jour | 4 ans | **2.6%** | 🟢 Très bon |
+| **LSTM 2** | 5 (OHLCV) | 1 jour | 4 ans | **1.6%** | 🟢 Excellent |
+| **LSTM 3** | 7 (OHLCV+MM200+RSI14) | 30 jours | 1 an | **3.14%** | 🟡 Bon |
 
 ### **Analyse détaillée par pipeline**
 
