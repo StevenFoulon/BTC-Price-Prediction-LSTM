@@ -1,0 +1,88 @@
+2025-08-03 17:26:31,533 - __main__ - INFO - Vérification des prérequis...
+2025-08-03 17:26:35,611 - __main__ - INFO - Toutes les dépendances sont disponibles
+2025-08-03 17:26:35,611 - __main__ - INFO - Modèle trouvé: app/models/model.h5
+2025-08-03 17:26:35,783 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-03 17:26:35,786 - services.prediction_service - INFO - Modèle LSTM chargé avec succès
+2025-08-03 17:26:40,815 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.91.145.206:5000
+2025-08-03 17:26:40,815 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 17:26:53,121 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:26:53] "GET /health HTTP/1.1" 200 -
+2025-08-03 17:26:59,145 - services.prediction_service - INFO - Données Bitcoin récupérées: 0 jours
+2025-08-03 17:26:59,147 - services.prediction_service - ERROR - Erreur lors de la prédiction: Found array with 0 sample(s) (shape=(0, 7)) while a minimum of 1 is required by MinMaxScaler.
+2025-08-03 17:26:59,148 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:26:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-08-03 17:27:57,362 - __main__ - INFO - Vérification des prérequis...
+2025-08-03 17:28:00,287 - __main__ - INFO - Toutes les dépendances sont disponibles
+2025-08-03 17:28:00,287 - __main__ - INFO - Modèle trouvé: app/models/model.h5
+2025-08-03 17:28:00,340 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-03 17:28:00,342 - services.prediction_service - INFO - Modèle LSTM chargé avec succès
+2025-08-03 17:28:02,813 - services.prediction_service - INFO - Données Bitcoin récupérées: 0 jours
+2025-08-03 17:28:02,814 - services.prediction_service - ERROR - Erreur lors de la prédiction: Found array with 0 sample(s) (shape=(0, 7)) while a minimum of 1 is required by MinMaxScaler.
+2025-08-03 17:28:02,815 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:28:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-08-03 17:29:34,225 - __main__ - INFO - Vérification des prérequis...
+2025-08-03 17:29:37,051 - __main__ - INFO - Toutes les dépendances sont disponibles
+2025-08-03 17:29:37,051 - __main__ - INFO - Modèle trouvé: app/models/model.h5
+2025-08-03 17:29:37,106 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-03 17:29:37,107 - services.prediction_service - INFO - Modèle LSTM chargé avec succès
+2025-08-03 17:29:54,187 - services.prediction_service - INFO - Données Bitcoin récupérées: 0 jours
+2025-08-03 17:29:54,188 - services.prediction_service - ERROR - Erreur lors de la prédiction: Found array with 0 sample(s) (shape=(0, 7)) while a minimum of 1 is required by MinMaxScaler.
+2025-08-03 17:29:54,189 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:29:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-08-03 17:32:08,084 - __main__ - INFO - Vérification des prérequis...
+2025-08-03 17:32:10,665 - __main__ - INFO - Toutes les dépendances sont disponibles
+2025-08-03 17:32:10,665 - __main__ - INFO - Modèle trouvé: app/models/model.h5
+2025-08-03 17:32:10,718 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-03 17:32:10,720 - services.prediction_service - INFO - Modèle LSTM chargé avec succès
+2025-08-03 17:36:12,037 - __main__ - INFO - Vérification des prérequis...
+2025-08-03 17:36:15,597 - __main__ - INFO - Toutes les dépendances sont disponibles
+2025-08-03 17:36:15,597 - __main__ - INFO - Modèle trouvé: app/models/model.h5
+2025-08-03 17:36:15,681 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-03 17:36:15,683 - services.prediction_service - INFO - Modèle LSTM chargé avec succès
+2025-08-03 17:36:20,691 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.91.145.206:5001
+2025-08-03 17:36:20,691 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 17:36:35,763 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:36:35] "GET /health HTTP/1.1" 200 -
+2025-08-03 17:36:40,391 - services.prediction_service - INFO - Données brutes récupérées: 299 jours
+2025-08-03 17:36:40,393 - services.prediction_service - INFO - Données après nettoyage: 286 jours
+2025-08-03 17:36:40,393 - services.prediction_service - INFO - Préparation des données: 286 lignes, 7 colonnes
+2025-08-03 17:36:41,325 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:36:41] "POST /predict HTTP/1.1" 200 -
+2025-08-03 17:37:13,514 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:37:13] "GET / HTTP/1.1" 200 -
+2025-08-03 17:37:13,518 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:37:13] "GET /health HTTP/1.1" 200 -
+2025-08-03 17:37:13,520 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:37:13] "GET /model/status HTTP/1.1" 200 -
+2025-08-03 17:37:13,760 - services.prediction_service - INFO - Données brutes récupérées: 299 jours
+2025-08-03 17:37:13,762 - services.prediction_service - INFO - Données après nettoyage: 286 jours
+2025-08-03 17:37:13,762 - services.prediction_service - INFO - Préparation des données: 286 lignes, 7 colonnes
+2025-08-03 17:37:14,574 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:37:14] "POST /predict HTTP/1.1" 200 -
+2025-08-03 17:37:14,756 - services.prediction_service - INFO - Données brutes récupérées: 299 jours
+2025-08-03 17:37:14,757 - services.prediction_service - INFO - Données après nettoyage: 286 jours
+2025-08-03 17:37:14,757 - services.prediction_service - INFO - Préparation des données: 286 lignes, 7 colonnes
+2025-08-03 17:37:15,379 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:37:15] "POST /predict HTTP/1.1" 200 -
+2025-08-03 17:37:15,587 - services.prediction_service - INFO - Données brutes récupérées: 299 jours
+2025-08-03 17:37:15,589 - services.prediction_service - INFO - Données après nettoyage: 286 jours
+2025-08-03 17:37:15,589 - services.prediction_service - INFO - Préparation des données: 286 lignes, 7 colonnes
+2025-08-03 17:37:16,230 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:37:16] "POST /predict HTTP/1.1" 200 -
+2025-08-03 17:37:16,416 - services.prediction_service - INFO - Données brutes récupérées: 299 jours
+2025-08-03 17:37:16,417 - services.prediction_service - INFO - Données après nettoyage: 286 jours
+2025-08-03 17:37:16,418 - services.prediction_service - INFO - Préparation des données: 286 lignes, 7 colonnes
+2025-08-03 17:37:17,106 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:37:17] "POST /predict HTTP/1.1" 200 -
+2025-08-03 17:42:50,098 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:42:50] "GET / HTTP/1.1" 200 -
+2025-08-03 17:42:50,103 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:42:50] "GET /health HTTP/1.1" 200 -
+2025-08-03 17:42:50,108 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:42:50] "GET /model/status HTTP/1.1" 200 -
+2025-08-03 17:42:50,303 - services.prediction_service - INFO - Données brutes récupérées: 299 jours
+2025-08-03 17:42:50,304 - services.prediction_service - INFO - Données après nettoyage: 286 jours
+2025-08-03 17:42:50,305 - services.prediction_service - INFO - Préparation des données: 286 lignes, 7 colonnes
+2025-08-03 17:42:50,955 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:42:50] "POST /predict HTTP/1.1" 200 -
+2025-08-03 17:42:51,205 - services.prediction_service - INFO - Données brutes récupérées: 299 jours
+2025-08-03 17:42:51,206 - services.prediction_service - INFO - Données après nettoyage: 286 jours
+2025-08-03 17:42:51,206 - services.prediction_service - INFO - Préparation des données: 286 lignes, 7 colonnes
+2025-08-03 17:42:51,937 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:42:51] "POST /predict HTTP/1.1" 200 -
+2025-08-03 17:42:52,072 - services.prediction_service - INFO - Données brutes récupérées: 299 jours
+2025-08-03 17:42:52,074 - services.prediction_service - INFO - Données après nettoyage: 286 jours
+2025-08-03 17:42:52,074 - services.prediction_service - INFO - Préparation des données: 286 lignes, 7 colonnes
+2025-08-03 17:42:52,733 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:42:52] "POST /predict HTTP/1.1" 200 -
+2025-08-03 17:42:52,946 - services.prediction_service - INFO - Données brutes récupérées: 299 jours
+2025-08-03 17:42:52,946 - services.prediction_service - INFO - Données après nettoyage: 286 jours
+2025-08-03 17:42:52,947 - services.prediction_service - INFO - Préparation des données: 286 lignes, 7 colonnes
+2025-08-03 17:42:53,599 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 17:42:53] "POST /predict HTTP/1.1" 200 -
